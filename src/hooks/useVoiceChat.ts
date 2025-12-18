@@ -139,16 +139,22 @@ export function useVoiceChat(role: string | null) {
       utterance.pitch = 1.0;
       utterance.volume = 1.0;
       
-      // Try to find a natural sounding voice
+      // Find a consistent British English male voice
       const voices = window.speechSynthesis.getVoices();
-      const preferredVoice = voices.find(v => 
-        v.name.includes("Google") || 
-        v.name.includes("Samantha") ||
-        v.name.includes("Natural")
-      ) || voices.find(v => v.lang.startsWith("en"));
       
-      if (preferredVoice) {
-        utterance.voice = preferredVoice;
+      // Priority: British English voices (en-GB), prefer male voices for consistency
+      const britishVoice = voices.find(v => 
+        v.lang === "en-GB" && (v.name.includes("Daniel") || v.name.includes("Male"))
+      ) || voices.find(v => 
+        v.lang === "en-GB" && v.name.includes("Google UK English Male")
+      ) || voices.find(v => 
+        v.lang === "en-GB"
+      ) || voices.find(v => 
+        v.lang.startsWith("en-GB")
+      );
+      
+      if (britishVoice) {
+        utterance.voice = britishVoice;
       }
 
       utterance.onstart = () => setIsSpeaking(true);
