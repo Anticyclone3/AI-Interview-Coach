@@ -1,3 +1,107 @@
+# 🎤 AI Interview Coach – Voice Assistant
+
+An AI-powered **voice-based interview coaching assistant** that helps users practice common interview questions, receive constructive feedback, and build confidence through realistic conversational practice.
+
+This project simulates a friendly interview mentor experience, especially useful for **students, freshers, and early professionals** preparing for job interviews.
+
+---
+
+## 🚀 Live Demo
+
+👉 https://www44.lovable.app/
+
+---
+
+## 🧠 What This Project Does
+
+* Conducts **voice-based mock interviews**
+* Asks **role-specific interview questions**
+* Listens to user responses patiently
+* Provides:
+
+  * Positive reinforcement
+  * Clear improvement suggestions
+  * Confidence-building tips
+* Adapts tone to be **friendly, calm, and encouraging**
+
+This makes interview practice feel **natural and stress-free**, unlike traditional Q&A bots.
+
+---
+
+## 🛠️ Built With
+
+* **Lovable AI** – Voice assistant platform
+* **AI Prompt Engineering** – Custom interview coach behavior
+* **GitHub** – Project documentation & showcase
+
+*(No backend required – designed as a lightweight AI agent)*
+
+---
+
+## 📸 Screenshots / Demo
+
+<img width="1920" height="898" alt="image" src="https://github.com/user-attachments/assets/969358cb-3032-4422-8485-fa4e7409b5e0" />
+
+<img width="1902" height="883" alt="image" src="https://github.com/user-attachments/assets/3f95f1ff-ab00-406f-a3f8-4a22f32a3ffb" />
+
+
+
+---
+
+## 🎯 Use Cases
+
+* Interview practice for **students & freshers**
+* Confidence-building before real interviews
+* Spoken English & communication practice
+* Portfolio project demonstrating **AI + UX thinking**
+
+---
+
+## 💡 Why I Built This
+
+Many candidates struggle not because of lack of knowledge, but due to **nervousness and lack of practice**.
+
+This project aims to:
+
+* Reduce interview anxiety
+* Improve answer clarity
+* Help users feel confident through repeated, friendly practice
+
+---
+
+## 🔮 Future Improvements
+
+* Role-based interview modes (Tech / Non-tech)
+* Multilingual support (English, Marathi, Hindi)
+* Scoring & session summaries
+* Integration with WhatsApp / Web chatbot
+
+---
+
+## 👤 Author
+
+**Anticyclone**
+AI • Automation • Frontend Projects
+
+> Built as part of my journey in AI-powered product development.
+
+---
+
+⭐ If you found this project interesting, feel free to star the repository!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Welcome to your Lovable project
 
 ## Project info
