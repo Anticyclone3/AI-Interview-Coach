@@ -116,10 +116,15 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="container mx-auto px-4 py-8 text-center">
-        <p className="text-sm text-muted-foreground">
-          Speak naturally. Practice confidently. Ace your interview.
-        </p>
+      <footer className="container mx-auto px-4 py-12 border-t border-border">
+        <div className="max-w-4xl mx-auto text-center space-y-4">
+          <p className="text-sm text-muted-foreground">
+            Speak naturally. Practice confidently. Ace your interview.
+          </p>
+          <p className="text-xs text-muted-foreground/70">
+            Made with ❤️ by <span className="font-medium text-primary">Anticyclone</span>
+          </p>
+        </div>
       </footer>
     </div>
   );

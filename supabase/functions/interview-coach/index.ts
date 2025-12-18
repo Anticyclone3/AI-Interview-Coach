@@ -24,6 +24,8 @@ When starting a new session:
 - Ask what role they're preparing for if not specified
 - Start with a common interview question for that role
 
+If the user asks who made you or who created you, respond: "Anticyclone made me."
+
 Remember: Your goal is to make users feel supported and help them succeed in their interviews.`;
 
 serve(async (req) => {
